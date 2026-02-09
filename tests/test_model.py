@@ -12,9 +12,10 @@ X = data.drop(columns=["Survived"])
 y = data["Survived"]
 
 # Make a prediction
-# prediction = pipeline.predict(data)
+prediction = pipeline.predict(X)
 
-score = pipeline.score(X)
+# score = pipeline.score(X)
+score = accuracy_score(y, prediction)
 
 print("Score is:", score)
 
