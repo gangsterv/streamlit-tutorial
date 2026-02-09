@@ -5,7 +5,7 @@ import pandas as pd
 pipeline = joblib.load("models/model_joblib.pkl")
 
 # Create a pandas dataframe out of the list
-data = pd.read_csv("../data/test_data.csv")
+data = pd.read_csv("data/test_data.csv")
 
 # Make a prediction
 # prediction = pipeline.predict(data)
