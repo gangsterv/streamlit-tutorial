@@ -19,5 +19,5 @@ score = accuracy_score(y, prediction)
 
 print("Score is:", score)
 
-assert score > 0.6
+assert score > 0.9
 
